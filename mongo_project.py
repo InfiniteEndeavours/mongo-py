@@ -47,7 +47,6 @@ def main_loop():
     While True, calls the show_menu function
     Checks option against what is returned from show_menu function
     Prints selected option to terminal
-    :return:
     """
     while True:
         option = show_menu()
